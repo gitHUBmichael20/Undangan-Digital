@@ -1,0 +1,253 @@
+@media (min-width: 800px) {
+  /* responsive navigation bar */
+
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  /* responsive story */
+  .storycard:nth-child(even) {
+    border-left: 2px dashed var(--blush);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+    padding-right: 0;
+    padding-left: 2em;
+  }
+
+  .storycard:nth-child(odd) {
+    border-right: 2px dashed var(--blush);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+    padding-left: 0;
+    padding-right: 2em;
+  }
+
+  .storycard:nth-child(even) .image-storycard {
+    justify-content: flex-start;
+  }
+
+  .storycard:nth-child(odd) .image-storycard {
+    justify-content: flex-end;
+  }
+
+  .storycard:nth-child(even) p {
+    text-align: left;
+  }
+
+  .storycard:nth-child(odd) p {
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  /* welcome-section */
+
+  #nama-pengantin {
+    font-size: 2em;
+  }
+
+  /* responsive quotes section */
+  #foto-pasangan #content-foto-pasangan {
+    margin-bottom: 2vh;
+  }
+
+  #foto-pasangan #ornamen-1 {
+    bottom: 0vh;
+  }
+  #foto-pasangan #ornamen-2 {
+    bottom: 0vh;
+  }
+
+  #quotes-wrapper {
+    background-size: cover;
+  }
+
+  .button-wrapper-quotes #next-page {
+    width: 40vw !important;
+    justify-content: center;
+  }
+
+  /* responsive date & location */
+
+  #ornamen-date-t-l {
+    width: 25vw;
+    top: 1vh;
+    right: -2vw;
+  }
+
+  #ornamen-date-t-r {
+    width: 20vw;
+  }
+
+  #ornamen-date-b-l {
+    width: 30vw;
+  }
+
+  #ornamen-date-b-r {
+    width: 30vw;
+  }
+
+  #date #title h1 {
+    font-size: 40px;
+  }
+
+  #date #title h2 {
+    font-size: 30px;
+  }
+
+  #date-section {
+    height: auto;
+  }
+
+  #location #left-div {
+    width: 80%;
+  }
+
+  #content #location {
+    flex-direction: column;
+  }
+
+  #location #right-div {
+    margin-left: 2vw !important;
+  }
+
+  #right-div #google-maps {
+    width: 70vw;
+  }
+
+  #next-page-gallery {
+    display: none;
+  }
+
+  .thank-you-wrapper {
+    flex-direction: column;
+  }
+
+  /* responsif rsvp dan hadiah */
+
+  .container-rsvp-gift {
+    flex-direction: column;
+  }
+
+  .form-container,
+  .components-container {
+    width: 80%;
+  }
+
+  /* responsif tamu undangan */
+
+  #visitor-list {
+    overflow-x: hidden;
+  }
+
+  .search-container {
+    width: 90vw;
+  }
+
+  .table-wrapper {
+    width: 95vw;
+    overflow-x: scroll;
+  }
+
+  /* responsve footer */
+
+  .footer {
+    padding: 15px;
+  }
+  .quote,
+  .thanks,
+  .copyright {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* responsive gallery */
+
+  #gallery-website h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #gallery-website .column {
+    width: 100%;
+  }
+
+  /* responsive profile */
+
+  #profile-section .ornamen {
+    min-width: 20vw;
+    max-width: 40vw;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .card-profile {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-profile .gambar-pengantin {
+    margin-top: 2vh;
+    width: 60vw;
+  }
+
+  .gambar-pengantin img {
+    max-width: 60vw;
+  }
+
+  .caption-profile {
+    padding-left: 0.5em;
+    width: 95%;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+
+  .social-media-profile {
+    width: 40vw;
+  }
+
+  .sosmed {
+    padding: 2.5vw;
+  }
+
+  .sosmed img {
+    width: 15vw;
+  }
+
+  .card {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .leftside {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 0;
+  }
+
+  .rightside {
+    width: auto;
+    border-bottom-left-radius: 1.5rem;
+    padding: 0.5rem 3rem 3rem 2rem;
+    border-radius: 0;
+  }
+}

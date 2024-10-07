@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Batak</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="assets/style/style.css" />
+  <link rel="stylesheet" href="assets/style/responsive.css" />
+  <link rel="stylesheet" href="assets/style/animasi.css" />
+  <link rel="shortcut icon" href="assets/logo/logo-favicon.png" type="image/x-icon" />
+  <script src="assets/javascript/script.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <!-- Welcome page -->
+  <section id="welcome-section">
+    <div id="content-wrapper">
+      <div id="page-content">
+        <div id="foto-pasangan">
+          <img class="fadeInLeftOnLoad" id="content-foto-pasangan" src="assets/images/foto couple.jpeg"
+            alt="foto-couple" />
+          <img class="fadeInRightOnLoad" id="ornamen-picture-b-r" src="assets/ornament/bunga (1).png"
+            alt="ornamen bunga" />
+          <img class="fadeInLeftOnLoad" id="ornamen-picture-b-l" src="assets/ornament/bunga.png" alt="ornamen bunga" />
+          <img class="fadeInRightOnLoad" id="ornamen-picture-t-l" src="assets/ornament/bunga (6).png"
+            alt="ornamen bunga" />
+          <img class="fadeInLeftOnLoad" id="ornamen-picture-t-r" src="assets/ornament/bunga (5).png"
+            alt="ornamen bunga" />
+        </div>
+        <p id="judul-halaman" class="bounceInDown">Wedding Invitation</p>
+        <h1 class="typewriter" id="nama-pengantin">Sebastian & Rachelle</h1>
+        <h2 class="glow nama-tamu">Dear Pak Satria</h2>
+        <button id="open-invitation" onclick="openInvitation();" class="fadeInUp">
+          View Invitation
+        </button>
+      </div>
+    </div>
+    <div id="image-decoration">
+      <img class="zoomInOnLoad" id="ornamen-1-r" src="assets/ornament/ornamen 1.png" alt="ornamen" />
+      <img class="zoomInOnLoad" id="ornamen-2-l" src="assets/ornament/ornamen 1.png" alt="ornamen" />
+      <img class="zoomInOnLoad" id="pohon-ornament-l" src="assets/ornament/pohon.png" alt="pohon-ornament" />
+      <img class="left-right-animation zoomInOnLoad" id="ornamen-bunga-l" src="assets/ornament/bunga (2).png"
+        alt="ornamen-bunga" />
+      <img class="left-right-animation zoomInOnLoad" id="ornamen-bunga-r" src="assets/ornament/bunga (2).png"
+        alt="ornamen-bunga" />
+      <img class="zoomInOnLoad" id="ornamen-burung-r" src="assets/ornament/elemen-burung.png" alt="element-burung" />
+      <img class="zoomInOnLoad" id="ornamen-burung-l" src="assets/ornament/elemen-burung.png" alt="element-burung" />
+    </div>
+    <div id="welcome-decoration">
+      <img class="rotate-left" id="ornamen-t-r" src="assets/ornament/motif batak.png" alt="motif-batak" />
+      <img class="rotate-right" src="assets/ornament/motif batak.png" alt="motif-batak" id="ornamen-t-l" />
+      <img class="zoomInOnLoad" id="ornamen-1-r" src="assets/ornament/ornamen 1.png" alt="ornamen" />
+      <img class="zoomInOnLoad" id="ornamen-2-l" src="assets/ornament/ornamen 1.png" alt="ornamen" />
+      <img class="zoomInOnLoad" id="pohon-ornament-l" src="assets/ornament/pohon.png" alt="pohon-ornament" />
+      <img class="zoomInOnLoad" id="pohon-ornament-r" src="assets/ornament/pohon.png" alt="pohon-ornament" />
+      <img class="left-right-animation" id="ornamen-bunga-l" src="assets/ornament/bunga (2).png" alt="ornamen-bunga" />
+      <img class="left-right-animation" id="ornamen-bunga-r" src="assets/ornament/bunga (2).png" alt="ornamen-bunga" />
+    </div>
+  </section>
+
+  <!-- content dari website -->
+  <div class="website-content">
+    <!-- Audio Player -->
+    <div class="audio-player" onclick="togglePlayPause()">
+      <audio loop id="audio">
+        <source src="assets/audio/website-audio.mp3" />
+      </audio>
+      <div id="audio-control" onclick="putarLagu()">
+        <img id="image-control" src="assets/icon/played-music.svg" alt="audio-control" onclick="playPause()" />
+      </div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav class="header">
+      <div id="header-wrapper">
+        <a href="#welcome-section" id="logo-navbar" class="logo">
+          <img id="navbar-logo" src="assets/logo/logo navbar wedding final.png" alt="logo-navbar">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#welcome-section">Welcome</a></li>
+          <li><a href="#quotes-section">Quotes</a></li>
+          <li><a href="#profile-section">Profile</a></li>
+          <li><a href="#date-section">Date & Location</a></li>
+          <li><a href="#background-story">Story</a></li>
+          <li><a href="#gallery-website">Gallery</a></li>
+          <li><a href="#visitor-list">Tamu Undangan</a></li>
+          <li><a href="#section-rsvp-gift">RSVP</a></li>
+          <li><a href="#pesan-pengantin">Pesan</a></li>
+        </ul>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </nav>
+    <!-- Go to RSVP -->
+    <button id="go-to-rsvp">
+      <a href="#section-rsvp-gift">RSVP</a>
+    </button>
+    <!-- Quotes Website -->
+    <section id="quotes-section">
+      <div id="quotes-wrapper">
+        <div id="content-wrapper">
+          <h1 id="judul" class="fadeInUpOnLoad">Romans 12:10</h1>
+          <p id="quotes-website" class="fadeInLeftOnLoad">
+            " Be devoted to one another in love. Honor one another above
+            yourselves "
+          </p>
+          <p id="penjelasan" class="fadeInRightOnLoad">
+            Dia telah menciptakan pasangan-pasangan untukmu, laki-laki dengan
+            perempuan dan sebaliknya, dari jenismu sendiri agar kamu cenderung
+            dan mempunyai rasa cinta kepadanya dan merasa tenteram bersamanya
+            setelah disatukan dalam ikatan pernikahan;
+          </p>
+        </div>
+        <button id="next-page">
+          <a href="#profile-section">Next Page</a>
+        </button>
+      </div>
+      <div class="ornamen-quotes">
+        <img id="ornamen-b-r-quotes" src="assets/ornament/motif batak.png" alt="motif ornamen batak" />
+        <img id="ornamen-t-l-quotes" src="assets/ornament/motif batak.png" alt="motif ornamen batak" />
+      </div>
+    </section>
+    <!-- Profile Section -->
+    <section id="profile-section">
+      <img class="ornamen fadeInLeft" id="ornamen-profile-b-l" src="assets/ornament/bunga (1).png"
+        alt="ornamen-bunga" />
+      <img class="ornamen fadeInRight" id="ornamen-profile-b-r" src="assets/ornament/bunga (2).png"
+        alt="ornamen-bunga" />
+      <img class="ornamen fadeInLeft" id="ornamen-profile-t-r" src="assets/ornament/bunga (3).png"
+        alt="ornamen-bunga" />
+      <img class="ornamen fadeInRight" id="ornamen-profile-t-l" src="assets/ornament/bunga (4).png"
+        alt="ornamen-bunga" />
+      <div class="content-profile" id="slider-container">
+        <div class="card-profile" id="card-one">
+          <div class="gambar-pengantin">
+            <img src="assets/images/foto-profil-pria.jpeg" alt="gambar-pengantin" />
+          </div>
+          <div class="caption-profile">
+            <h1>Sebastian Pandjaitan</h1>
+            <p class="profile-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              fugiat impedit voluptas aliquid qui. Rem deleniti nesciunt
+              blanditiis cum unde a, amet aut? Tenetur quam facere dolor eum.
+              Omnis, quos.
+            </p>
+            <h2 class="parent-name">Stefanus Pandjaitan</h2>
+            <p class="parent-description">Beloved father of Sebastian</p>
+            <div class="social-media-profile">
+              <button onclick="window.open('https://www.instagram.com/michaell_carlo/','_blank')" class="sosmed">
+                <img src="assets/icon/instagram.png" alt="instagram-profile" />
+              </button>
+              <button onclick="window.open('https://x.com/Michael81014752','_blank')" class="sosmed">
+                <img src="assets/icon/twitter.png" alt="twitter-profile" />
+              </button>
+              <button onclick="window.open('https://www.linkedin.com/in/carlo-simbolon-301704267/','_blank')"
+                class="sosmed">
+                <img src="assets/icon/linkedin.png" alt="tiktok-profile" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-profile" id="card-two">
+          <div class="gambar-pengantin">
+            <img src="assets/images/foto-profil-perempuan.jpeg" alt="gambar-pengantin" />
+          </div>
+          <div class="caption-profile">
+            <h1>Evelyn Wijaya</h1>
+            <p class="profile-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              fugiat impedit voluptas aliquid qui. Rem deleniti nesciunt
+              blanditiis cum unde a, amet aut? Tenetur quam facere dolor eum.
+              Omnis, quos.
+            </p>
+            <h2 class="parent-name">Rachelle Shafia</h2>
+            <p class="parent-description">Beloved Mother of Evelyn</p>
+            <div class="social-media-profile">
+              <button onclick="window.open('https://www.instagram.com/michaell_carlo/','_blank')" class="sosmed">
+                <img src="assets/icon/instagram.png" alt="instagram-profile" />
+              </button>
+              <button onclick="window.open('https://x.com/Michael81014752','_blank')" class="sosmed">
+                <img src="assets/icon/twitter.png" alt="twitter-profile" />
+              </button>
+              <button onclick="window.open('https://www.linkedin.com/in/carlo-simbolon-301704267/','_blank')"
+                class="sosmed">
+                <img src="assets/icon/linkedin.png" alt="tiktok-profile" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="control-profile">
+        <button class="left-control" onclick="swipe('left')">
+          <span id="left-control-button" class="material-symbols-outlined">arrow_back_ios</span>
+        </button>
+        <button class="right-control" onclick="swipe('right')">
+          <span id="right-control-button" class="material-symbols-outlined">
+            arrow_forward_ios
+          </span>
+        </button>
+      </div>
+    </section>
+    <!-- Wedding Date -->
+    <section id="date-section">
+      <img class="ornamen" id="ornamen-date-t-l" src="assets/ornament/bunga (3).png" alt="ornamen-bunga" />
+      <img class="ornamen" id="ornamen-date-t-r" src="assets/ornament/bunga (5).png" alt="ornamen-bunga" />
+      <img class="ornamen" id="ornamen-date-b-l" src="assets/ornament/ornamen-sudut.png" alt="ornamen-sudut" />
+      <img class="ornamen" id="ornamen-date-b-r" src="assets/ornament/ornamen-sudut.png" alt="ornamen-sudut" />
+      <div id="content">
+        <div id="title">
+          <h1>Count the date !!</h1>
+          <h2>The wedding of Sebastian & Rachelle</h2>
+        </div>
+        <div id="count-down">
+          <div class="date-caption">
+            <p class="date-type">Bulan</p>
+            <p class="date-number" id="months">00</p>
+          </div>
+          <p class="separator">:</p>
+          <div class="date-caption">
+            <p class="date-type">Hari</p>
+            <p class="date-number" id="days">00</p>
+          </div>
+          <p class="separator">:</p>
+          <div class="date-caption">
+            <p class="date-type">Jam</p>
+            <p class="date-number" id="hours">00</p>
+          </div>
+          <p class="separator">:</p>
+          <div class="date-caption">
+            <p class="date-type">Detik</p>
+            <p class="date-number" id="seconds">00</p>
+          </div>
+        </div>
+        <h2>
+
+        </h2>
+        <div id="location">
+          <div id="left-div">
+            <h2>Location :</h2>
+            <p>
+              Jl. Boulevard Bar. Raya No.1, RT.2/RW.9, Klp. Gading Bar., Kec.
+              Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240
+            </p>
+            <h2>Tanggal :</h2>
+            <p id="tanggal-wedding">
+              20 November 2024
+            </p>
+          </div>
+          <div id="right-div">
+            <div id="google-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.965902433011!2d106.88931691485323!3d-6.153783554430552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f53f8ce9dd65%3A0x3135d8220c87d1c9!2sBalai%20Samudera!5e1!3m2!1sid!2sid!4v1725091085816!5m2!1sid!2sid"
+                width="100%" height="100%" style="border: 0; border-radius: 7px" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Background Story -->
+    <section id="background-story">
+      <h1>Our Timeline Relationship</h1>
+      <div class="storyline">
+        <div class="storycard">
+          <div class="image-storycard fadeInUp">
+            <img src="assets/images/foto couple (2).jpeg" alt="foto-pasangan" />
+            <img src="assets/images/foto couple.jpeg" alt="foto-pasangan" />
+          </div>
+          <p class="zoomIn">
+            It was a sunny day when we first met in SMA, I saw you from afar,
+            and my heart skipped a beat. You were the most beautiful girl I
+            had ever seen, with your bright smile and sparkling eyes. I knew
+            right then and there that I had to make you mine.
+          </p>
+        </div>
+        <div class="storycard">
+          <div class="image-storycard fadeInUp">
+            <img src="assets/images/image9.jpeg" alt="foto-pasangan" />
+            <img src="assets/images/image11.jpeg" alt="foto-pasangan" />
+          </div>
+          <p class="zoomIn">
+            We started dating in 2014, and I knew from the beginning that I
+            wanted to spend the rest of my life with you. You are the sunshine
+            that brightens up my day, and I'm grateful to have you by my side.
+          </p>
+        </div>
+        <div class="storycard">
+          <div class="image-storycard fadeInUp">
+            <img src="assets/images/foto couple (2).jpeg" alt="foto-pasangan" />
+            <img src="assets/images/foto couple.jpeg" alt="foto-pasangan" />
+          </div>
+          <p class="zoomIn">
+            We have been through ups and downs, and we have shared so much laughter and tears together. I'm grateful to
+            have you by my side, and I promise to always be there for you.
+          </p>
+        </div>
+        <div class="storycard">
+          <div class="image-storycard fadeInUp">
+            <img src="assets/images/foto pengantin pria.jpeg" alt="foto-pasangan" />
+            <img src="assets/images/foto couple.jpeg" alt="foto-pasangan" />
+          </div>
+          <p class="zoomIn">
+            Our love story is not a fairy tale, it's a story of how we fight
+            through every challenge that comes our way. We've been through so
+            much, and we've come out stronger on the other side. We've had to
+            deal with long distance, financial struggles, and even
+            misunderstandings. But through it all, we've found a way to make
+            it work, and to make our love for each other stronger. I'm so
+            grateful to have you by my side, and I promise to always be there
+            for you.
+          </p>
+        </div>
+        <div class="storycard">
+          <div class="image-storycard fadeInUp">
+            <img src="assets/images/image9.jpeg" alt="foto-pasangan" />
+            <img src="assets/images/image11.jpeg" alt="foto-pasangan" />
+          </div>
+          <p class="zoomIn">
+            You are the sunshine that brightens up my day, and I'm grateful to
+            have you by my side. You are the love of my life, and I'm so
+            grateful to have you.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- gallery website -->
+    <section id="gallery-website">
+      <h1>Wedding Image</h1>
+      <div class="images-gallery">
+        <div class="column">
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image1.jpg" alt="img" id="image-1" class="content-gallery"
+              onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Bagai langit dan bumi Yang tak pernah sealam Bagai hitam dan
+              putih Yang tak pernah sewarna
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image2.jpg" alt="img" id="image-2" class="content-gallery"
+              onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Karena semua yang ada di dunia ini hanyalah sementara
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <video id="video-2" src="assets/video/video-wedding.mp4" class="content-gallery" onclick="showOverlay(this)"
+              controls autoplay muted loop></video>
+            <p class="p-img-overlay">
+              Karena semua yang ada di dunia ini hanyalah sementara
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image3.jpeg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Sang pujaan tak juga datang angin berhembus bercabang rinduku
+              berbuai larai. Sang pujaan tak juga datang. Angin
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image4.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Inginku berdiri di sebelahmu Menggenggam erat jari-jarimu
+              Mendengarkan lagu Sheila on Seven Seperti waktu itu Saat kau di
+              sisiku
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-content-wrapper fadeInUp">
+            <video src="./assets/video/video-wedding (2).mp4" alt="img" id="video-1" class="content-gallery" autoplay
+              loop controls muted />
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image5.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Hanya doaku yang bergetar malam ini dan tak pernah kaulihat
+              siapa aku tapi yakin aku ada dalam dirimu.
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image6.jpeg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Aku memilih memilikimu dalam mimpi. Karena dalam mimpiku, kamu
+              tidak akan pernah mati.
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image7.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Inginku berdiri di sebelahmu Menggenggam erat jari-jarimu
+              Mendengarkan lagu Sheila on Seven Seperti waktu itu Saat kau di
+              sisiku
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image8.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Namun aku akan tetap disini menunggumu hingga semesta
+              mengirimkan dirimu kepadaku saat sudah waktunya
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image5.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Inginku berdiri di sebelahmu Menggenggam erat jari-jarimu
+              Mendengarkan lagu Sheila on Seven Seperti waktu itu Saat kau di
+              sisiku
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image9.jpeg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Inginku berdiri di sebelahmu Menggenggam erat jari-jarimu
+              Mendengarkan lagu Sheila on Seven Seperti waktu itu Saat kau di
+              sisiku
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image10.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Sebelum aku bertemu denganmu, Aku merasa bahwa aku tidak bisa
+              mencintai siapa pun, Bahwa tak seorang pun akan mampu mengisi
+              kekosongan di hatiku, Tapi itu semua berubah saat aku bertemu
+              denganmu.
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image11.jpeg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Hidup yang baru ini mungkin akan berat. Seperti kopi tubruk,
+              bagian awalnya memang kasar, namun semakin kau dalami maka akan
+              terasa kenikmatannya
+            </p>
+          </div>
+          <div class="gallery-content-wrapper fadeInUp">
+            <img src="./assets/images/image12.jpg" alt="img" class="content-gallery" onclick="showOverlay(this)" />
+            <p class="p-img-overlay">
+              Kamu membuatku tertawa dan tersenyum. Kamu mengambil semua
+              kemarahan dan kesedihanku. Kamu membuatku lemah ketika aku
+              berbicara denganmu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button onclick="document.getElementById('rsvp-section').scrollIntoView();" id="go-down">
+          Go Down
+        </button>
+      </div>
+    </section>
+    <!-- Turut Mengundang -->
+    <section id="visitor-list">
+      <div class="ornamen-visitor">
+        <img class="fadeInLeft" id="ornamen-1-r" src="assets/ornament/loud-speaker.png" alt="loud-speaker" />
+        <img id="ornamen-1-l" src="assets/ornament/loud-speaker.png" alt="loud-speaker" />
+      </div>
+      <div class="search-container fadeInLeft">
+        <input type="text" class="search-input" placeholder="Search visitors..." onkeyup="filterTable()" />
+        <button class="search-button">Search</button>
+      </div>
+      <div class="table-wrapper fadeInRight">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Visitor Information</th>
+              <th colspan="4">Details</th>
+            </tr>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Purpose</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>John Doe</td>
+              <td>2024-09-29</td>
+              <td>09:00 AM</td>
+              <td>Meeting</td>
+              <td>Checked In</td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>Jane Smith</td>
+              <td>2024-09-29</td>
+              <td>10:30 AM</td>
+              <td>Interview</td>
+              <td>Waiting</td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>Bob Johnson</td>
+              <td>2024-09-29</td>
+              <td>11:45 AM</td>
+              <td>Delivery</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>004</td>
+              <td>Alice Brown</td>
+              <td>2024-09-29</td>
+              <td>01:15 PM</td>
+              <td>Tour</td>
+              <td>Scheduled</td>
+            </tr>
+            <tr>
+              <td>005</td>
+              <td>Charlie Wilson</td>
+              <td>2024-09-29</td>
+              <td>02:30 PM</td>
+              <td>Maintenance</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <td>006</td>
+              <td>Eva Garcia</td>
+              <td>2024-09-29</td>
+              <td>03:45 PM</td>
+              <td>Consultation</td>
+              <td>Waiting</td>
+            </tr>
+            <tr>
+              <td>007</td>
+              <td>David Lee</td>
+              <td>2024-09-29</td>
+              <td>04:30 PM</td>
+              <td>Pickup</td>
+              <td>Scheduled</td>
+            </tr>
+            <tr>
+              <td>008</td>
+              <td>Grace Chen</td>
+              <td>2024-09-29</td>
+              <td>05:15 PM</td>
+              <td>Meeting</td>
+              <td>Checked In</td>
+            </tr>
+            <tr>
+              <td>009</td>
+              <td>Henry Kim</td>
+              <td>2024-09-29</td>
+              <td>06:00 PM</td>
+              <td>Delivery</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>010</td>
+              <td>Isabella Nguyen</td>
+              <td>2024-09-29</td>
+              <td>07:30 PM</td>
+              <td>Tour</td>
+              <td>Scheduled</td>
+            </tr>
+            <tr>
+              <td>011</td>
+              <td>Jack Smith</td>
+              <td>2024-09-29</td>
+              <td>08:45 PM</td>
+              <td>Maintenance</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <td>012</td>
+              <td>Kate Johnson</td>
+              <td>2024-09-29</td>
+              <td>09:30 PM</td>
+              <td>Consultation</td>
+              <td>Waiting</td>
+            </tr>
+            <tr>
+              <td>013</td>
+              <td>Leah Davis</td>
+              <td>2024-09-29</td>
+              <td>10:15 PM</td>
+              <td>Pickup</td>
+              <td>Scheduled</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="view-more">
+              <td colspan="6">
+                <button onclick="viewMore()">View More</button>
+              </td>
+            </tr>
+            <tr class="highlight">
+              <td colspan="4">
+                Special Day: Private Wedding (20 November 2024)
+              </td>
+              <td id="table-alert" colspan="2" rowspan="2">
+                <p>
+                  Please make sure <br />
+                  to arrive 15 minutes early <br />
+                </p>
+              </td>
+            </tr>
+            <tr class="footer-nama-pengantin">
+              <td colspan="4">Sebastian & Rachelle</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+    <!-- rsvp dan kirim hadiah -->
+    <section id="section-rsvp-gift">
+      <div class="container-rsvp-gift">
+        <div class="form-container fadeInUp">
+          <h1>RSVP Kehadiran</h1>
+          <form>
+            <div class="input-group">
+              <label for="nama-tamu">Nama tamu</label>
+              <input type="text" id="nama-tamu" placeholder="Enter Nama tamu" />
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter email" />
+            </div>
+            <div class="input-group">
+              <label for="dropdown">Apakah anda membawa kendaraan</label>
+              <select id="dropdown">
+                <option value="" disabled selected>Jenis Kendaraan</option>
+                <option value="1">Sepeda Motor</option>
+                <option value="2">Mobil</option>
+                <option value="3">Minibus</option>
+              </select>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Saya Bisa datang ke acara pernikahan</label>
+            </div>
+            <p id="radio-title">Gender</p>
+            <div class="radio-group">
+              <input type="radio" id="radio1" name="radio-group" />
+              <label for="radio1">Male</label>
+            </div>
+            <div class="radio-group">
+              <input type="radio" id="radio2" name="radio-group" />
+              <label for="radio2">Female</label>
+            </div>
+            <div class="text-area">
+              <textarea placeholder="Masukan untuk kami..."></textarea>
+            </div>
+            <div class="button-group">
+              <button type="button" class="button button-secondary">
+                Cancel
+              </button>
+              <button type="submit" class="button button-primary">
+                Next
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="components-container fadeInLeft">
+          <h2>Kirim Hadiah</h2>
+          <div class="input-group">
+            <input type="text" placeholder="Nomor Telepon +62 xxxxxx" />
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="nomor rekening" class="rekening" />
+          </div>
+          <h2>Checkbox</h2>
+          <div class="checkbox-group">
+            <input type="checkbox" id="checkbox1" />
+            <label for="checkbox1">Saya memberi dengan sukarela</label>
+          </div>
+          <h2>Dengan Akun Bank</h2>
+          <div class="rekening-group">
+            <p id="nomor-rekening">1234-0987-56789-9876-4444</p>
+            <button class="button button-primary" onclick="copyRekening()">
+              Semua Bank
+            </button>
+          </div>
+          <h2>Dengan QRIS</h2>
+          <div class="qris-pengantin">
+            <img id="qr-pengantin" src="assets/images/qr-pengantin.jpg" alt="qr-pengantin" />
+          </div>
+          <h2>Buttons</h2>
+          <button class="button button-primary">Send</button>
+          <button class="button button-secondary">Clear</button>
+        </div>
+      </div>
+    </section>
+    <!-- ucapan selamat -->
+    <section id="pesan-pengantin" class="ucapan-tamu">
+      <div class="ucapan-content">
+        <h1 class="fadeInLeft">Pesan Bagi Pengantin</h1>
+        <div class="ucapan-form fadeInRight">
+          <input type="text" id="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" placeholder="Last Name" required />
+          <textarea id="ucapanText" placeholder="Write something here..." required></textarea>
+          <button onclick="addComment()">Send</button>
+        </div>
+        <div id="ucapansList" class="fadeInUp"></div>
+      </div>
+    </section>
+    <!-- Thank You  -->
+    <footer class="footer">
+      <p class="quote">
+        "Cinta adalah seni menyatukan dua jiwa menjadi satu"
+      </p>
+      <p class="thanks">Terima kasih dari pengantin pernikahan</p>
+      <p class="copyright">&copy; 2024 Michael Teguh Carlo Simbolon</p>
+      <button class="top-button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        Kembali ke atas
+      </button>
+    </footer>
+  </div>
+</body>
+
+</html>
